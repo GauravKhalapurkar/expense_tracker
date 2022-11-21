@@ -14,6 +14,11 @@ class UserTransactionsState extends State<UserTransactions> {
     Transaction(
         id: 't1', title: 'New Shoes', amount: 5000, date: DateTime.now()),
     Transaction(id: 't2', title: 'Glass', amount: 8000, date: DateTime.now()),
+    Transaction(id: 't3', title: 'Glass', amount: 8000, date: DateTime.now()),
+    Transaction(id: 't4', title: 'Glass', amount: 8000, date: DateTime.now()),
+    Transaction(id: 't5', title: 'Glass', amount: 8000, date: DateTime.now()),
+    Transaction(id: 't6', title: 'Glass', amount: 8000, date: DateTime.now()),
+    Transaction(id: 't7', title: 'Glass', amount: 8000, date: DateTime.now()),
   ];
 
   void _addNewTransaction(String txTitle, double txAmount) {
